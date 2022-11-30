@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.app{min-height: 100vh;}
+.container,.app{
+  background-color: #1A202C;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(156, 21, 21);
+  padding: 12px;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add-todo-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+.add-input{
+padding: 5px;
+
+}
+.add-btn{
+  padding:6px;
+  background-color: rgb(15, 110, 15);
+  color: fff;
+  border-radius: 5px;
+  cursor: pointer;
+ margin-left: 25px;
+ color:#fff;
+ border:1px solid  rgb(15, 110, 15);
+}
+.list{
+  width: 70% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+list-style-type:none ;
+padding-top: 25px;
+}
+.list-item{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 8px  0;
+  justify-content: space-between;
+}
+
+
+.select-category{
+  margin-left: 15px;
+}
+
+.remove-btn , .edit-btn{
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.remove-btn{
+  margin-right: 15px;
+  background-color: darkred;
+  border: 1px solid darkred;
+}
+.edit-btn{
+  background-color: rgb(15, 110, 15);
+  border: 1px solid rgb(15, 110, 15);
+}
+.list-item >div{
+  display: flex;
+  align-items: center;
+}
+.checkBox{
+  margin-right: 15px;
+}
